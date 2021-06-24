@@ -1,0 +1,44 @@
+HOME
+
+fetch("http://localhost:3000/", {
+  "headers": {
+    "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+    "accept-language": "en-US,en;q=0.9",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"91\", \"Chromium\";v=\"91\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-fetch-dest": "document",
+    "sec-fetch-mode": "navigate",
+    "sec-fetch-site": "same-origin",
+    "sec-fetch-user": "?1",
+    "upgrade-insecure-requests": "1",
+    "cookie": "Webstorm-ead011ac=66ef5e04-8eb7-42cb-b34c-ec5aacd69808; test-session=ooKfo2hVI_nRjaWVmo0hZlWnoGi1SCXL7n3ZYJjoTKCToumuMDndydGJ8ZGXGqtOtvpBDqFgktvU-1eOE-zM_Q==; .AspNetCore.Antiforgery.C22uzIOLOq4=CfDJ8Dy2Uoy8D9FOsrM6FB8eCVcGclBpy4Oa9G8SJ51JTK_K60s2Nf4nuthYN-zvJUXobc3LTOfqxcVZgZBf7RYvFWJqOIsEuRFgiTZWJzM02aXhEEiUjruIPZH6djQywAoBFepYLaWgBNTiNjKBgEZ0dQQ; .AspNetCore.Identity.Application=CfDJ8Dy2Uoy8D9FOsrM6FB8eCVcGdAvXLFPAp0t1-c7wpifhiRPrZMl3_cPoP9xFKq_R1yKxiZ4lh1-gj9_TJJi0kjs4aROT_tC2BK5h3zWjz240s1I8f67Dmk1m0w684L3o7sLk-bb0rVJBZRAeOEUrwXZUxeZCYctQmdgbwIeOutvusrljZD25DbtTS2babnZjVYqn-v3OtXrXNQVcrIzCdqGYAlayochsGs2jMu4YPeV_DfPOsDKGwEM1C_60Ni9nn3ByTNsHxdFoVtkJ6KNx70-WO7jLrNn7SQAYxbsNLasqRh09tjp0jZM9RRzmTe1NXJjgmnCVSJooF9Wl1e7cJ1O0de2vu_dn6AT3wHhAFtimMEgG1ze5P_-NofbTx6PXDmy1rA8dwc83lxbodNBodsU8OYq33EWAG_c-u8LFmNabHSuXg9zZ1j-ARbW1hkGpOEkWCksgZ_6Cwo49RWcw1wEZRbeaB7m6gXMPm8IXES9235nolIg7ct35jl0XaFL1nlRB-1YQ3JsgeFNGC-X6rhd8qT00BZc8M5q2jafRK6fcPQborV50QLO5LszKg3uPN-3E4lfU1n05TZsuUKmmUt1MyncElShwLKxATygxLUsZNQcvNLhbty_YZBGaFqtGys9Kv94XlOkw8ZgvDeBZtF4"
+  },
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors"
+});
+
+200
+
+fetch("https://localhost:44319/connect/authorize?client_id=aurelia&redirect_uri=https://localhost:3000/signin-oidc/&nonce=QlRC4AaHWpYh&scope=openid%20email%20roles%20profile%20api1%20api2&response_type=token", {
+  "headers": {
+    "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+    "accept-language": "en-US,en;q=0.9",
+    "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"91\", \"Chromium\";v=\"91\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-fetch-dest": "document",
+    "sec-fetch-mode": "navigate",
+    "sec-fetch-site": "cross-site",
+    "sec-fetch-user": "?1",
+    "upgrade-insecure-requests": "1",
+    "cookie": "test-session=ooKfo2hVI_nRjaWVmo0hZlWnoGi1SCXL7n3ZYJjoTKCToumuMDndydGJ8ZGXGqtOtvpBDqFgktvU-1eOE-zM_Q==; .AspNetCore.Identity.Application=CfDJ8Dy2Uoy8D9FOsrM6FB8eCVdJROAph3ykDEfmsKgX1lnUSyt2rumgIjSZuvuolCSyDDcSJ7JZwKD0qrrz3HW7h_jtA5mjuct1GrW6JJ-F6uuY2tPoGRFnZ34P6dTEkJV87-hL5k1aigzDJ5qbZ2yBNlkCqeJ4sCUbih99Q2n2JsWm4IY3wb1ifQmTf1f3u76dt_2SJXBdE2qdG45MPUHdkSxKycLCiYX_qsAXCzsDBrlmPFtii2hjDkuPnRMBp2unlGvBUwM4mfu8tRxxE46v7G9O-CJzw1S4CLqVrLMeU4vRWzZgreXCHNQqGCmOZ8g-CzxHOV6-m2x9KG4TfcuoHXwXk8Rj4bu4WBKqaH7bC9VRFtAgYImo82jsqiQQFi4IvU333wRarIella-FLUB3IoYVfMincLaUbaZQ2Gx8m8S8-HFuwugN7xj8JoKHSONGlH4Ohq5HgyoF-3wnftTIWFmXbYje6zuYDwBXNhMd0E0hgb0O10UFNOhy7gVNloXahJG7y9XoO4GV3g3e0SCxuRsyPrQomrCmxyj1A6gOisN0Ypajm18aP3wNHx7ojDl-NNXT_mV7qXGiYwHs2jadLVvRhSsGvuNlvcXxF2rzzlQ495fLnOzFe_UCroWxylAS_A"
+  },
+  "referrer": "http://localhost:3000/",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors"
+});

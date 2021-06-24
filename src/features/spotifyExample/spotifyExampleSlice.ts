@@ -36,7 +36,7 @@ export const setUserProfileAsync = (accessToken: string): AppThunk => dispatch =
   const myHeaders = new Headers();
   myHeaders.append('Authorization', 'Bearer ' + accessToken);
 
-  fetch('https://api.spotify.com/v1/me', {
+  fetch('https://localhost:44319/account/login', {
     method: 'GET',
     headers: myHeaders,
   }).then(response => response.json())

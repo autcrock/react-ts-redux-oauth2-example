@@ -38,10 +38,10 @@ export function Authorization() {
         {!isLoggedIn &&
           <button
           className={styles.button}
-          aria-label="Log in using OAuth 2.0"
+          aria-label="Log in using OIDC"
           onClick={() => window.open(getAuthorizeHref(), '_self')}
           >
-          Log in with Spotify
+          Log in with OIDC
           </button>}
         {isLoggedIn && <div className={styles.row}>Token expiry date: {tokenExpiryDate}</div>}
       </div>
